@@ -2,7 +2,12 @@
 //importar o ref()
 import {ref} from "vue";
 
-const tarefas = ref(["Entreguem o desafio Starbucks","Estudar Vue.js", "Treinar", "Fazer comida", "Tomar o pré treino do Prefeito", "Tomar banho"])
+const tarefas = ref(["Organizar a área de trabalho",
+"Revisar e-mails",
+ "Planejar o dia seguinte", 
+ "Praticar exercício físico", 
+ "Ler por 30 minutos",
+  "Tomar banho"])
 
 //Nova tarefa- precisa ser definida como ref()
 const novaTarefa = ref("");
